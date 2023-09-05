@@ -4,7 +4,7 @@ os.environ["no_proxy"] = "localhost, 127.0.0.1, ::1"
 import threading
 from time import sleep
 from subprocess import Popen
-import faiss-gpu
+import faiss
 from random import shuffle
 import json, datetime, requests
 from gtts import gTTS
